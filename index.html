@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Studio</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+    <header  class="head">
+
+        <div class="container header__container">
+            <div class="menu-burger__header">
+                <span></span>
+            </div>
+            <nav class="header__nav">
+                <ul class="menu header__menu">
+                    <li class="kenta" >KENTA  <br>
+                        Design Studio</li>
+                    <li><a href="#rec1" class="menu__item">Главная</a></li>
+                    <li><a href="#rec2" class="menu__item">Услуги</a></li>
+                    <li><a href="#rec3" class="menu__item">Портфолио</a></li>
+                    <li><a href="#rec4" class="menu__item">Ваши выгоды</a></li>
+                    <li><a href="#rec5" class="menu__item">Контакты</a></li>
+                    <li class="kenta">Контактный телефон <br> +375(33)376-40-77</li>
+                </ul>
+                <div class="img-info">
+                    <a href="#" ><img src="img/inst.png" alt=""></a>
+                    <a href="#" ><img src="img/tele.png" alt=""></a>
+                    <a href="#" ><img src="img/twit.png" alt=""></a>
+                </div>
+                
+            </nav>
+        </div>
+        
+    </header>
+    
+    <div id="rec1" class="slider">
+        <div class="item">
+            <img src="https://geometrium.com/wp-content/uploads/2019/04/viza_vander_park-2.jpg" alt="Первый слайд">
+            <div class="info-slider-container opacity">
+            <div class="slideText">Создадим для вас дизайн проект <br> Подберем материал</div>
+            <div class="slider-info-text">По вашим пожеланиям</div>
+            <button  class="slider-button1" id="btn1" >Узнать подробности</button>
+            </div>
+        </div>
+    
+        <div class="item">
+            <img src="https://www.ikea.com/images/dobro-pozhalovat-v-galereyu-spalen-ikea-gde-vy-naidete-prime-782704101d9ae34685e3c068eff2cf7c.jpg" alt="Второй слайд">
+            <div class="info-slider-container opacity">
+                <div class="slideText">Экономим ваше время и бюджет</div>
+                <div class="slider-info-text">Компании-партнеры, предоставляют приятные цены нашим заказчикам</div>
+                <button class="slider-button2" id="btn3">Расчитать стоимость</button>
+                </div>
+        </div>
+    
+        <div class="item">
+            <img src="https://roomester.ru/wp-content/uploads/2018/06/interesnye-interery-7.jpg" alt="Третий слайд">
+            <div class="info-slider-container opacity">
+                <div class="slideText">Контролируем процесс <br> ремонта до вашего заселения</div>
+                <div class="slider-info-text">Гарантия реализации. Наша задача - ваш ремонт без нервов и хлопот</div>
+                <button class="slider-button1" id="btn4">Получить бонус!</button>
+                </div>
+        </div>
+    
+        <a id="prev" class="prev" >&lt;</a>
+        <a id="next" class="next">&gt;</a>
+    </div>
+
+    <section  class="price-info">
+        <div class="price-adv">
+        <div class="price-text1">
+            <h1>KENTA - это <span class="change-text">сервис</span>  <br> который вы заслуживаете</h1>
+        </div>
+        <div id="rec2" class="price-text2">
+            <h2>Каждое предложение обсуждается персонально</h2>
+        </div>
+        </div>
+        <div class="price-bloks">
+            <div class="block1">
+                <div class="img-block1">
+                    <img src="" alt="">
+                </div>
+                <div class="block-text">
+                    <h1>Консультация</h1>
+                    <p>Помогаем справиться со сложностями в вашем проекте и ремонте</p>
+                    <h3>50 бел. руб / час</h3>
+                    <button class="block-btn1" id="btn5">Подробнее</button>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="img-block2">
+                    <img src="" alt="">
+                </div>
+                <div class="block-text">
+                    <h1>Дизайн-проект</h1>
+                    <p>Всё что вам нужно, что бы реализовать вашу идею в реальность!</p>
+                    <h3>до 84 руб. за кв. м.</h3>
+                    <button class="block-btn1" id="btn10">Что входит?</button>
+                </div>
+            </div>
+            <div class="block1">
+                <div class="img-block3">
+                    <img src="" alt="">
+                </div>
+                <div class="block-text">
+                    <h1><span class="change-text">Бесплатное авторское сопровождение проекта</span></h1>
+                    <p>Включен во все наши предложения</p>
+                    <button class="block-btn1" id="btn6">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="form-text">
+            <h1>Не нашли ответы на вопросы?</h1>
+            <h2><span class="change-text">Заполните анкету, спросите что вас волнует</span><br>Также сориентируем по стоимости </h2>
+        </div>
+        <form class="form-container-windows" id="form" >
+            <div class="form-context">
+            <div class="form-info">Ваше имя:</div>
+            <div class="field">
+                <input class="t-input" placeholder="Например: Иван" type="text" id="name" name="name" required>
+            </div>
+            <div class="form-info">Номер телефона:</div>
+            <div class="field">
+                <input  id="phone" class="t-input" placeholder="+375 ХХ ХХХХХХХ" type="tel" name="phone" required>
+            </div>
+            <div class="form-info">Ваши пожелания:</div>
+            <div class="field">
+                <input id="wishes" class="t-input1" type="text" maxlength="168" name="massage">
+            </div>
+            <button id="in1" type="button"  class="form-btn-window">Начать сотрудничать с нами</button>
+            </div>
+        </form>
+
+    </section>
+
+    <section id="rec3" class="work">
+        <div class="work-text">
+            <h1>Вы должны увидеть наши последние проекты, сделанные с любовью ♥</h1>
+        </div>
+        <div  class="img-work">
+            <img src="https://mossebo.studio/wp-content/uploads/5-top-modern-house-interior-designs-for-5-pouted-com-modern-interior-design-ideas-2018-1000x694.jpg" class="image" alt="picture">
+            <img src="https://content.onliner.by/news/1100x5616/2a9809dfa429114bce7086359a0485be.jpeg" class="image" alt="picture">
+        </div>
+        <div class="img-work">
+            <img src="https://www.pufikhomes.com/wp-content/uploads/2019/06/nezhnyi-i-elegantnyi-interier-kvartiry-dlya-devushko-pufikhomes-6-1.jpg" class="image" alt="picture">
+            <img src="https://vatikam.s3.amazonaws.com/uploads/portfolio_module/image/131985/portfolio_8e5b36239c.jpg" class="image" alt="">
+        </div>
+        <div class="img-work">
+            <img src="https://www.pufikhomes.com/wp-content/uploads/2020/01/izyskannye-apartamenty-v-stockgolme-pufikhomes-1.jpg" class="image" alt="picture">
+            <img src="https://дизайн-квартиры.рф/system/interiors/imgs/000/000/106/big/0032-1.jpg?1601322524" class="image" alt="picture">
+        </div>
+    </section>
+
+    <section id="rec4" class="coop">
+        <div class="coop-text">
+            <h1>Выгоды сотрудничества</h1>
+        </div>
+        <div class="coop-blocks">
+            <div class="coop-block">
+                <div class="number-wrapper">
+                   <div class="number">1</div> 
+                </div>
+                <p><span class="bold">Гарантия реализации проекта.</span> Бесплатное авторское сопровождение от начала ремонтных работ до вашего заселения</p>
+            </div>
+            <div class="coop-block">
+                <div class="number-wrapper">
+                    <div class="number">2</div> 
+                </div>
+                <p><span class="bold">Приятные цены</span> от наших поставщиков-партнеров: чистовых материалов, мебели, сантехники, освещения и <span class="bold">всего, что необходимо в ваш дом</span></p>
+            </div>
+            <div class="coop-block">
+                <div class="number-wrapper">
+                    <div class="number">3</div> 
+                </div>
+                <p><span class="bold">Берем ответственность на себя и экономим ваше время</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer id="rec5" class="footer">
+        
+        <div class="footer-info">
+            <div class="footer-text1">Я нахожусь у себя дома по адресу Пр.Победителей 43</div>
+            <div class="footer-text2">Хотите узнать подробности, звоните на наш номер!</div>
+            <div class="footer-text3">+375 33 376 40 77 <br>
+                dragus42@gmail.com
+            </div>
+            <div class="footer-text4">У нас можно заказать дизайн проект любого объекта. Дизайн интерьера квартир, частных домов, бизнес-центров, кафе и др. Работаем как с физическими так и с юридическими лицами. Также предлагаем ремонт под ключ по нашим проектам.</div>
+            <div class="footer-text5">Наши данные:
+                Индивидуальный предприниматель Храпко Кристина Михайловна,<br>
+                УНП: 291571990 <br>
+                Банк: ЗАО «Альфа-Банк», <br>
+                БИК: ALFABY2X <br>
+                Р/с: BY54ALFA30132466550010270000</div>
+        </div>
+
+        <div class="logo">
+            <a href="#rec1"><img  src="https://static.tildacdn.com/tild6233-6232-4465-b036-613130306631/__.png" alt=""></a>
+        </div>
+    </footer>
+
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+          <h1>Заказать звонок</h1>
+      
+          <label for="name"><b>Имя</b></label>
+          <input type="text" placeholder="Ваше имя" id="name-popup" name="name" required>
+        
+        <label for="email"><b>Телефон</b></label>
+          <input type="text" placeholder="+375" id="phone-popup" name="phone" required>
+      
+          <button type="button" id="in2" class="btn">Отправить</button>
+          <button type="button" class="btn cancel" id="btn2">Закрыть</button>
+        </form>
+      </div>
+
+      <div id="myMassage" class="massage-container"> 
+        <div class="massage-info">
+            <h1>Заявка отправлена!В скором времени наши менеджеры свяжутся с вами.</h1>
+            <button type="button" id="accept" class="btn-accept">Понял</button>
+        </div>
+      </div>
+
+
+
+      <div class="form-popup1" id="infoForm">
+        <form action="#" class="form-container1">
+          <h1>Комплектация проекта может меняться по вашим пожеланиям</h1>
+            <ul>
+                <li class="step">Этап 1</li>
+                <li>Знакомство с дизайнером</li>
+                <li>Выезд на объект</li>
+                <li>Обмеры помещения</li>
+                <li>Разработка подробного задания для разработки проекта</li>
+                <li>Планировочные решения</li>
+                <li>Перепланировка</li>
+                <li class="step">Этап 2</li>
+                <li>Общее цветовое решение</li>
+                <li>Разработка коллажей интерьера (с реальной мебелью)</li>
+                <li class="step">Этап 3</li>
+                <li>3D - визуализация интерьера</li>
+                <li class="step">Этап 4</li>
+                <li>Разработка всех необходимых чертежей для реализации</li>
+                <li>План демонтажа конструкций</li>
+                <li>План монтажа конструкций</li>
+                <li>План теплых полов</li>
+                <li>Схема дверных проемов</li>
+                <li>и т.д.</li>
+                <li class="step">Этап 5</li>
+                <li>Бесплатный авторский надзор</li>
+                <li>Технический надзор ремонтных работ (доп. услуга)</li>
+            </ul>
+          <button type="button" class="btn cancel" id="btn11">Закрыть</button>
+        </form>
+      </div>
+    
+    
+    <script type="module" src="js/index.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    
+</body>
+</html>
